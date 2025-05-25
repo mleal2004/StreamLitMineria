@@ -11,7 +11,7 @@ sns.set(style="whitegrid")
 st.title("Análisis Exploratorio de Datos")
 
 # Cargar archivo CSV
-data = pd.read_csv("https://github.com/mleal2004/StreamLitMineria/blob/main/dataset.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/mleal2004/StreamLitMineria/refs/heads/main/dataset.csv")
 
 # Corregir errores potenciales en tipos de datos
 for col in data.select_dtypes(include=["object"]):
